@@ -1,0 +1,25 @@
+#title{
+	-fx-text-fill: #5e5707
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color:transparent;
+}
+
+.tab-pane {
+  -fx-tab-min-width:60px;
+  -fx-tab-max-width:120px;
+  -fx-tab-min-height:35px;
+  -fx-tab-max-height:50px;
+}
+
+.tab {
+  -fx-font-family: Arial;
+  -fx-font-size: 12;
+  -fx-background-color: #cfcfcf ;
+  -fx-fill-color: #000000;
+}
+
+.tab:selected {
+    -fx-background-color: #9e9e9e;
+}
